@@ -1,0 +1,8 @@
+services:
+  jupyter-notebook:
+    image:  myimage
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan
+    platform: linux/amd64
