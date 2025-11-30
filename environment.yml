@@ -1,7 +1,7 @@
-name: myenv
+name: ind2
 channels:
 - conda-forge
 dependencies:
-- conda-lock=3.0.4
-- python=3.11.14
 - pandas=2.3.3
+- conda-lock=2.5.8
+- altair=6.0.0
