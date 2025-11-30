@@ -2,6 +2,7 @@ name: ind2
 channels:
 - conda-forge
 dependencies:
+- python=3.14.0
 - pandas=2.3.3
 - conda-lock=2.5.8
 - altair=6.0.0
